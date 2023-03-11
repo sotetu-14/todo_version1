@@ -1,3 +1,61 @@
 body {
   font-family: sans-serif;
 }
+
+input {
+  border-radius: 3vw;
+  border: none;
+  padding: 0.6vw 1vw;
+}
+
+button {
+  border-radius: 3vw;
+  border: none;
+  padding: 0.5vw 2vw;
+}
+button:hover {
+  background-color: rgb(255, 172, 227);
+}
+
+li {
+  margin-right: 1vw;
+}
+
+.input_area {
+  background-color: #c1ffff;
+  width: 50vw;
+  height: 5vw;
+  padding: 1vw;
+  margin: 1vw;
+  border-radius: 1vw;
+}
+.incomplete-area {
+  background-color: #c6ffe2;
+  width: 50vw;
+  min-height: 30vw;
+  padding: 1vw;
+  margin: 1vw;
+  border-radius: 1vw;
+}
+.complete-area {
+  background-color: #ffffe0;
+  width: 50vw;
+  min-height: 30vw;
+  padding: 1vw;
+  margin: 1vw;
+  border-radius: 1vw;
+}
+
+.title {
+  text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 2vw;
+  color: #666666;
+}
+
+.list_row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1vw;
+}
